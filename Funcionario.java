@@ -1,11 +1,11 @@
 package Atividades;
 
-public class Funcionario {
-    protected long id;
-    protected String nome;
-    protected String telefone;
-    protected int matricula;
-    protected String endereco;
+public abstract class Funcionario {
+    private long id;
+    private String nome;
+    private String telefone;
+    private int matricula;
+    private String endereco;
 
     public Funcionario(long id, String nome, String telefone, int matricula, String endereco) {
         this.id = id;
